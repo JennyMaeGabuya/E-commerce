@@ -1,0 +1,257 @@
+/* All Form styles */
+body, h1, h2, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+heading {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+heading img {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Main styles */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Introduction section styles */
+.introduction {
+    margin-top: 30px;
+}
+
+.introduction h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.introduction p {
+    margin-bottom: 20px;
+}
+
+/* Image Carousel styles */
+.image-carousel {
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slide {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+#prev-slide, #next-slide {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prev-slide:hover, #next-slide:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* PRODUCT CSS */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: calc(33.33% - 20px);
+    margin: 10px; /* Space between products */
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product .description {
+    margin: 10px 0;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.product button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+/* ABOUT FORM*/
+
+.about-us-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    border-radius: 4px;
+}
+
+.about-us-content h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #007BFF;
+}
+
+.about-us-content p {
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Contact Details styles */
+.contact-details {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-details h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
